@@ -1,0 +1,67 @@
+Vehicle Prediction/Correction
+=============================
+
+EVENTUALLY: Real Vehicle => Simulink? (on-board computing, D-space)
+
+Code (Simulink):
+- Trajectory interpretation
+- Intervention Strategy
+
+NOW: CarSim
+	non-linear vehicle model
+
+MISSING: 
+	- Driver Input (Throttle, steering, brake)
+	- Virtual Reality Environment (track, cars, world) - MATLAB
+
+
+Input: NEEDS TO BE REALISTIC
+	- Logitech Racing Peripherals?
+
+
+Ideal world: make driver want go FAST
+	- Race?
+	- Time Trial?
+	- DMV course?
+
+
+10/15: Ideal deadline
+10/24: Prototype Presentation
+^^^^ Proof o' concept
+
+Gran-Turismo-ish?
+
+capture vid w/ CarSim?
+
+
+Table o' turns:
+x, y, z, muf, theta
+
+Volcano? Volcano.
+
+Assumes knowledge of track within X meters
+
+
+
+SIMULINK + CARSIM SHIT 
+====================== (DaFuk?)
+
+CarSim:
+	CANNOT Maintain Real-Time updating, SLOW
+
+SimuLink: Input to Car
+	Predicts shit.
+
+
+
+
+Idea:
+	CarSim runs async. and updates a data file. Use data file to update things in VR,
+	Reload CarSim once data written.
+	
+
+
+
+
+
+

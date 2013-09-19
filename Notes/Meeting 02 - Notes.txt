@@ -1,0 +1,18 @@
+BIGGEST PROBLEM: Real-time CarSim
+- CarSim likes to pre-determine/run simulation
+- NOT INTERACTIVE INPUT (Massive Problem!)
+
+So... we're cutting out CarSim, 'cuz fuck that.
+
+Looks like the logic model will be SimuLink
+
+SimuLink
+========
+- Circuit-like view makes things easy for non-programmers, not so much for real ones
+- CAN drop in C++ code (probs doing that)
+
+
+MatLab
+======
+- Can do in-house VR
+- Really should pipe out to Unity
